@@ -10,6 +10,7 @@ import NotFound from './components/NotFound'
 import './App.css'
 
 const App = () => (
+  <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/package" component={Package} />
